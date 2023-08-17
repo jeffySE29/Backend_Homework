@@ -1,0 +1,27 @@
+I. Album / Album_details
+1) GET/albums | done
+2) GET/album_by_id | done
+3) POST/album_by_id | done
+4) POST/Album_details | done
+5) DELETE/album_by_id | done
+6) DELETE/album_details by songID and albumID | done
+7) PUT/album_by_id | done
+8) PUT/setPrivacy | done
+
+II. Song
+1) GET/song | done
+2) GET/song_by_id | done
+3) GET/song listen_count | done
+4) POST/song_by_id | done
+5) DELETE/song_by_id | done
+6) PUT/song_by_id | done
+7) POST/uploadSong | done
+8) GET/downloadSong | not yet
+
+III. User
+1) GET/users | done
+2) GET/user_by_username | done
+3) POST/register | done
+4) POST/login | done
+5) DELETE/user_by_username | done
+6) PUT/user_by_username | done
