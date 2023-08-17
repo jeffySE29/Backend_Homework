@@ -7,9 +7,9 @@ import cookieParser from 'cookie-parser'
 
 import './database/database.js'
 import indexRouter from './routes/index.js'
-import bookRouter from './routes/books.js'
+import songRouter from './routes/songs.js'
 import userRouter from './routes/users.js'
-import orderRouter from './routes/orders.js'
+import albumRouter from './routes/albums.js'
 
 // ===== Config =====
 const server = express()
@@ -30,9 +30,9 @@ server.use(cookieParser())
 
 // ===== Routes =====
 server.use('/', indexRouter)
-server.use('/books', bookRouter)
+server.use('/books', songRouter)
 server.use('/users', userRouter)
-server.use('/orders', orderRouter)
+server.use('/orders', albumRouter)
 
 
 
