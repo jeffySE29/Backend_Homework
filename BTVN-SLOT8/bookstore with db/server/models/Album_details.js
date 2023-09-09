@@ -27,10 +27,10 @@ const Song = sequelize.define(table_name, {//users is a table name | User is obj
     ...SQLModel,//cai ...SQLModel nay de lay cac attribute cua SQLModel
 });
 
-Album.hasMany(Album_details)
-Song.hasMany(Album_details)
-Album_details.belongsTo(Album)
-Album_details.belongsTo(Song)
+// Album.hasMany(Album_details)
+// Song.hasMany(Album_details)
+// Album_details.belongsTo(Album)
+// Album_details.belongsTo(Song)
 
 User.sync().then(() => {
     console.log(`${table_name} table is created`)
